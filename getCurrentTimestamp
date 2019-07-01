@@ -1,0 +1,8 @@
+# Get current UNIX Timestamp
+# 13 digits length
+
+import time
+
+# default timestamp has only 10 int digits, so we have to multiply 1000 
+ts = int(time.time()*1000)
+print(ts)
